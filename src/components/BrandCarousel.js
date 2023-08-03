@@ -11,8 +11,10 @@ import logo5 from '../img/logos/logo5.png';
 import logo6 from '../img/logos/logo6.png';
 import logo7 from '../img/logos/logo7.png';
 import logo8 from '../img/logos/logo8.jpg';
+import logo9 from '../img/logos/logo9.jpeg';
+import logo10 from '../img/logos/logo10.jpeg';
 
-const logos = [logo1, logo2, logo5, logo6, logo7, logo8, logo3, logo4];
+const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9, logo10];
 
 export default function BrandCarousel() {
     const sliderRef = useRef(null);
