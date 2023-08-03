@@ -3,7 +3,7 @@ import LabImg from '../img/lab.jpeg'
 
 export default function Aboutpg() {
     return (
-        <div className='h-[55vh] flex flex-col items-center justify-center'>
+        <div className='min-h-[55vh] flex flex-col items-center justify-center'>
             <h3 className='text-center lg:text-5xl text-2xl font-bold my-5 lg:pb-5 lg:pt-0 pt-5'>About Us!</h3>
             <div className='container mx-auto flex lg:flex-row flex-col'>
                 <div className='flex flex-col lg:w-[60vw] w-full items-start justify-center'>
