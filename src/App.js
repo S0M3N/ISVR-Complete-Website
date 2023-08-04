@@ -11,6 +11,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Service from './pages/Service';
 import Gallery from './pages/Gallery';
+import TechKranti from './pages/TechKranti';
 
 const Layout = () => {
   return (
@@ -30,6 +31,7 @@ const router = createBrowserRouter([
       { path: '/about', element: <About /> },
       { path: '/gallery', element: <Gallery /> },
       { path: '/services', element: <Services /> },
+      { path: '/TechKranti', element: <TechKranti /> },
       { path: '/service/:id', element: <Service /> },
       { path: '*', element: <NotFound404 /> }
     ]
