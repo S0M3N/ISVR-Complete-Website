@@ -37,13 +37,13 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-extrabold  uppercase text-white">Follow us</h2>
                             <ul className=" font-medium">
                                 <li className="mb-4">
-                                    <a href="/" className="hover:underline ">Facebook</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/indian-space-vault-and-research/?original_referer=https%3A%2F%2Fisvr.org.in%2F" className="hover:underline ">Facebook</a>
                                 </li>
                                 <li className="mb-4">
-                                    <a href="/" className="hover:underline ">Instagram</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/i_s_v_r_/" className="hover:underline ">Instagram</a>
                                 </li>
                                 <li>
-                                    <a href="/" className="hover:underline">LinkedIn</a>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/isvr01/" className="hover:underline">LinkedIn</a>
                                 </li>
                             </ul>
                         </div>
