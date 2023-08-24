@@ -8,7 +8,7 @@ export default function Team() {
                 <h1 className='lg:text-4xl text-2xl font-bold mb-5'>
                     Our <span className='text-green-500'>Awesome</span> Team!
                 </h1>
-                <div className='grid md:grid-cols-2 grid-cols-1 gap-4'>
+                <div className='grid md:grid-cols-3 grid-cols-1 gap-4'>
                     {team.map((expert) => (
                         <div key={expert.id} className='bg-zinc-800 p-4 rounded'>
                             <img src={expert.image} alt={expert.name} className='w-32 h-32 mx-auto rounded-full' />
