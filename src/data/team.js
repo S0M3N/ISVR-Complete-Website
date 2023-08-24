@@ -56,8 +56,8 @@ export const team = [
     {
         id:1,
         name: 'Er. Ankit Kumar',
-        field: 'Advisory Board Member',
-        linkedin: 'Founder | Chief Executive Officer',
+        field: 'Founder | Chief Executive Officer',
+        linkedin: 'https://www.linkedin.com/in/ankit-chaudhary-1a75a0162/',
         image: importedImages[5],
     },
     {
