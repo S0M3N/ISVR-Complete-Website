@@ -25,9 +25,9 @@ export const advisory = [
     },
     {
         id: 2,
-        name: 'Prof. Thais Russomano',
-        field: 'Space Medicine Expert',
-        linkedin: 'https://www.linkedin.com/in/thaisrussomano/',
+        name: 'Jacob Løfdahl',
+        field: 'Danish Knowledge Management',
+        linkedin: 'https://www.linkedin.com/in/jacob-loefdahl/',
         image: importedImages[1],
     },
     {
