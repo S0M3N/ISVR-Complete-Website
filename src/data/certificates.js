@@ -10,7 +10,7 @@ export const certs = [
     attribute2: "her",
   },
   {
-    id: "002_somen_webdev_june01",
+    id: "002_somen_webdev_aug",
     name: "Master Somen Samanta",
     field: "Web Developer",
     grade: "A",
