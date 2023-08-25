@@ -12,7 +12,7 @@ export const certs = [
   {
     id: "002_somen_webdev_june01",
     name: "Master Somen Samanta",
-    field: "Web Development",
+    field: "Web Developer",
     grade: "A",
     from: "August 1, 2023",
     to: "August 31, 2023",
