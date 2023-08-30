@@ -13,6 +13,8 @@ import Service from "./pages/Service";
 import Gallery from "./pages/Gallery";
 import Cert from "./pages/Cert";
 import TechKranti from "./pages/TechKranti";
+import TnC from "./pages/TnC";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 const Layout = () => {
   return (
@@ -35,6 +37,8 @@ const router = createBrowserRouter([
       { path: "/TechKranti", element: <TechKranti /> },
       { path: "/service/:id", element: <Service /> },
       { path: "/cert/:id", element: <Cert /> },
+      { path: "/tnc", element: <TnC /> },
+      { path: "/PrivacyPolicy", element: <PrivacyPolicy /> },
       { path: "*", element: <NotFound404 /> },
     ],
   },
