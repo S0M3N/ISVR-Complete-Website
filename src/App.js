@@ -19,9 +19,9 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 const Layout = () => {
   return (
     <div>
-      <Navbar />
-      <Outlet />
-      <Footer />
+      <Navbar/>
+      <Outlet/>
+      <Footer/>
     </div>
   );
 };
