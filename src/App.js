@@ -15,13 +15,14 @@ import Cert from "./pages/Cert";
 import TechKranti from "./pages/TechKranti";
 import TnC from "./pages/TnC";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import Disclaimer from "./pages/Disclaimer";
 
 const Layout = () => {
   return (
     <div>
-      <Navbar/>
-      <Outlet/>
-      <Footer/>
+      <Navbar />
+      <Outlet />
+      <Footer />
     </div>
   );
 };
@@ -39,6 +40,7 @@ const router = createBrowserRouter([
       { path: "/cert/:id", element: <Cert /> },
       { path: "/tnc", element: <TnC /> },
       { path: "/PrivacyPolicy", element: <PrivacyPolicy /> },
+      { path: "/disclaimer", element: <Disclaimer /> },
       { path: "*", element: <NotFound404 /> },
     ],
   },
