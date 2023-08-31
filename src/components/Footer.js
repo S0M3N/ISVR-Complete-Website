@@ -12,7 +12,7 @@ export default function Footer() {
                 Indoplanet<span className="text-green-400">X</span>
               </span>
             </a>
-            <div>Contact:</div>
+            <div>Contact: +91 8882054894</div>
             <br />
             <div>
               <b>Reg. Office: </b>23, Alka Puri, Near IMA Blood Bank Dehradun,
