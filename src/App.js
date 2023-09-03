@@ -17,6 +17,11 @@ import TnC from "./pages/TnC";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Disclaimer from "./pages/Disclaimer";
 import Topbar from "./components/Topbar";
+import Rocket from "./pages/Rocket";
+import Drone from "./pages/Drone";
+import Rover from "./pages/Rover";
+import Satellite from "./pages/Satellite";
+import SpaceMed from "./pages/SpaceMed";
 
 const Layout = () => {
   return (
@@ -43,6 +48,11 @@ const router = createBrowserRouter([
       { path: "/tnc", element: <TnC /> },
       { path: "/PrivacyPolicy", element: <PrivacyPolicy /> },
       { path: "/disclaimer", element: <Disclaimer /> },
+      { path: "/division/rockets", element: <Rocket /> },
+      { path: "/division/drone", element: <Drone /> },
+      { path: "/division/rover", element: <Rover /> },
+      { path: "/division/satelliet", element: <Satellite /> },
+      { path: "/division/space_medicine", element: <SpaceMed /> },
       { path: "*", element: <NotFound404 /> },
     ],
   },
