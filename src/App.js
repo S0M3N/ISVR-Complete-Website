@@ -16,10 +16,12 @@ import TechKranti from "./pages/TechKranti";
 import TnC from "./pages/TnC";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Disclaimer from "./pages/Disclaimer";
+import Topbar from "./components/Topbar";
 
 const Layout = () => {
   return (
     <div>
+      <Topbar />
       <Navbar />
       <Outlet />
       <Footer />
