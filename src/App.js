@@ -54,6 +54,7 @@ const router = createBrowserRouter([
       { path: "/division/rover", element: <ComingSoon /> },
       { path: "/division/satellite", element: <ComingSoon /> },
       { path: "/division/space_medicine", element: <ComingSoon /> },
+      { path: "/division/ai_and_robotics", element: <ComingSoon /> },
       { path: "*", element: <NotFound404 /> },
     ],
   },
