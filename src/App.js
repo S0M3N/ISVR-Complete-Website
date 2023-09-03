@@ -22,6 +22,7 @@ import Drone from "./pages/Drone";
 import Rover from "./pages/Rover";
 import Satellite from "./pages/Satellite";
 import SpaceMed from "./pages/SpaceMed";
+import ComingSoon from "./pages/ComingSoon";
 
 const Layout = () => {
   return (
@@ -48,11 +49,11 @@ const router = createBrowserRouter([
       { path: "/tnc", element: <TnC /> },
       { path: "/PrivacyPolicy", element: <PrivacyPolicy /> },
       { path: "/disclaimer", element: <Disclaimer /> },
-      { path: "/division/rocket", element: <Rocket /> },
-      { path: "/division/drone", element: <Drone /> },
-      { path: "/division/rover", element: <Rover /> },
-      { path: "/division/satellite", element: <Satellite /> },
-      { path: "/division/space_medicine", element: <SpaceMed /> },
+      { path: "/division/rocket", element: <ComingSoon /> },
+      { path: "/division/drone", element: <ComingSoon /> },
+      { path: "/division/rover", element: <ComingSoon /> },
+      { path: "/division/satellite", element: <ComingSoon /> },
+      { path: "/division/space_medicine", element: <ComingSoon /> },
       { path: "*", element: <NotFound404 /> },
     ],
   },
