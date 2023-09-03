@@ -48,7 +48,7 @@ const router = createBrowserRouter([
       { path: "/tnc", element: <TnC /> },
       { path: "/PrivacyPolicy", element: <PrivacyPolicy /> },
       { path: "/disclaimer", element: <Disclaimer /> },
-      { path: "/division/rockets", element: <Rocket /> },
+      { path: "/division/rocket", element: <Rocket /> },
       { path: "/division/drone", element: <Drone /> },
       { path: "/division/rover", element: <Rover /> },
       { path: "/division/satelliet", element: <Satellite /> },
