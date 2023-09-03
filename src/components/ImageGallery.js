@@ -11,6 +11,11 @@ import img8 from '../img/gallery/img8.jpg';
 import img9 from '../img/gallery/img9.jpg';
 import img10 from '../img/gallery/img10.jpg';
 import img11 from '../img/gallery/img11.jpg';
+import img12 from '../img/gallery/image1.jpg';
+import img13 from '../img/gallery/image2.jpg';
+import img14 from '../img/gallery/image3.jpg';
+import img15 from '../img/gallery/image4.jpg';
+import img16 from '../img/gallery/image5.jpg';
 
 const imageUrls = [
     img1,
@@ -23,7 +28,11 @@ const imageUrls = [
     img8,
     img9,
     img10,
-    img11
+    img11,
+    img12,
+    img13,
+    img14,
+    img15
 ];
 
 const ImageGallery = () => {
