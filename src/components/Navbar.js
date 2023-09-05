@@ -38,7 +38,7 @@ const Navbar = () => {
                             ))}
                         </div>
                     </div>
-                    <button className='my-3 lg:px-7 px-5 font-bold py-2 transition-all hover:bg-white hover:text-green-400 bg-green-400 rounded-full'>Contact</button>
+                    <button className='my-3 lg:px-7 px-5 font-bold py-2 transition-all hover:bg-white hover:text-green-400 bg-green-400 rounded-full'><a href='mailto:info@indoplanetxsvr.com'>Contact</a></button>
                     <div className="flex lg:hidden mt-[2px]">
                         <button
                             type="button"
