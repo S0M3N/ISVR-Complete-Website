@@ -17,7 +17,7 @@ export default function SpaceMed() {
         <div className="container lg:mx-auto mx-4 flex lg:flex-row flex-col">
           <div className="lg:left lg:min-w-[65%] w-full">
             <h2 className="lg:text-3xl text-2xl lg:w-full w-[80%] font-semibold my-3">Space Medicine: Pioneering Health Beyond Earth</h2>
-            <div className="w-[80%]">
+            <div className="lg:w-[90%]text-justify">
               <p className="text-sm text-semibold mb-4 text-justify">Welcome to the captivating realm of Space Medicine, where science
                 meets the cosmos to ensure the
                 health and well-being of astronauts as they journey beyond our planet's bounds. Discover the
@@ -30,8 +30,8 @@ export default function SpaceMed() {
             <p className="italic text-lg w-[80%]">"Explore the final frontier of healthcare with Space Medicine:<br /> Innovations
               for Astronauts' Well-being."</p>
             <div className='flex gap-2 items-center justify-between w-[45%] cursor-pointer'>
-            <button className="px-4 py-2 mt-3 text-black bg-green-300 rounded-lg mb-2"><a href="#info">Know
-              more!</a></button>
+              <button className="px-4 py-2 mt-3 text-black bg-green-300 rounded-lg mb-2"><a href="#info">Know
+                more!</a></button>
               <a className='underline'>Apply in this division!</a>
             </div>
           </div>
@@ -60,7 +60,7 @@ export default function SpaceMed() {
         <div>
           <h2 className="text-2xl underline italic font-semibold">What we offers?</h2>
         </div>
-        <div className="lg:w-[70%] w-[80%]">
+        <div className="lg:w-[90%]text-justify">
           <p className="mt-2 text-justify">
             <b className="text-lg">Cutting-Edge Research:</b>
             <br />
@@ -80,6 +80,25 @@ export default function SpaceMed() {
             </p>
             <p className='mt-2'>Cultivate your knowledge, receive training, and apply a multitude of skills in the realm of Space Medicine and other pharmaceutical applications as a student or intern.</p>
           </p>
+        </div>
+      </section>
+      <section className='container lg:mx-auto mx-4 my-4'>
+        <h2 className='text-xl font-semibold mb-2 underline'>What We Offer to Students:</h2>
+        <div className="lg:w-[90%]text-justify flex flex-col space-y-2">
+          <p>At Space Medicine, we believe in providing accessible opportunities for students who aspire to make their mark in this field. Here's how we facilitate students' growth and development:</p>
+          <p>1. <b className='text-lg'>Courses</b>: Enroll in our specialized courses designed to equip you with the knowledge and skills required for a career in Space Medicine. Learn from experts who have hands-on experience in space healthcare.</p>
+          <p>2. <b className='text-lg'>Workshops:</b> Participate in hands-on workshops where you can gain practical insights into space medicine technologies and research methods.</p>
+          <p>3. <b className='text-lg'>Seminars and Conferences:</b> Attend our seminars and conferences to hear from leading professionals in the field, network with like-minded individuals, and stay updated on the latest advancements in space healthcare.</p>
+          <p>4. <b className='text-lg'>Internships:</b> Gain real-world experience through our internship programs. Work alongside our team on cutting-edge projects, contributing to the future of healthcare beyond Earth.</p>
+        </div>
+      </section>
+      <section className='certificate my-[5vh]'>
+        <div className='container mx-auto rounded-xl border min-h-[20vh] lg:w-full w-[80%] flex bg-stone-800'>
+        <div className='l lg:w-[65%] w-[100%] mx-3 my-2'>
+          <h2 className='text-xl font-bold'>Earn an Industry Grade Certificate</h2>
+          <p className='lg:w-[70%] my-4'>Get trained by us and earn a certificate to enhance your CV, Resume, and improve your presence.</p>
+        </div>
+        <div className='r bg-gray-700 mt-[-3vh] shadow-lg mb-[-3vh] w-[30%] rounded-xl p-2 lg:block hidden'>hi</div>
         </div>
       </section>
     </>
