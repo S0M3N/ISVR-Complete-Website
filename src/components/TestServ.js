@@ -22,7 +22,7 @@ export default function TestServ() {
                 <div className='border w-[35%] mt-2'></div>
               </div>
               <p className='text-sm text-start font-semibold px-2 capitalize'>{item.desc.slice(0, 90)}...</p>
-              <Link className='transition-all px-3 w-3/6 mx-2 rounded-lg text-center text-black hover:scale-105 hover:bg-white hover:text-green-400 py-2 bg-green-400 ' to={`/Service/${item.id}`}>Learn More!</Link>
+              <Link className='transition-all px-3 w-3/6 mx-2 rounded-lg text-center text-black hover:scale-105 hover:bg-white hover:text-green-400 py-2 bg-green-400 ' to={`/${item.link}`}>Learn More!</Link>
               <div></div>
             </div>
           )

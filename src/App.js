@@ -16,7 +16,6 @@ import TechKranti from "./pages/TechKranti";
 import TnC from "./pages/TnC";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Disclaimer from "./pages/Disclaimer";
-import Topbar from "./components/Topbar";
 import Rocket from "./pages/Rocket";
 import Drone from "./pages/Drone";
 import Rover from "./pages/Rover";
@@ -27,7 +26,6 @@ import ComingSoon from "./pages/ComingSoon";
 const Layout = () => {
   return (
     <div>
-      <Topbar />
       <Navbar />
       <Outlet />
       <Footer />
@@ -53,7 +51,7 @@ const router = createBrowserRouter([
       { path: "/division/drone", element: <ComingSoon /> },
       { path: "/division/rover", element: <ComingSoon /> },
       { path: "/division/satellite", element: <ComingSoon /> },
-      { path: "/division/space_medicine", element: <ComingSoon /> },
+      { path: "/division/space_medicine", element: <SpaceMed /> },
       { path: "/division/ai_and_robotics", element: <ComingSoon /> },
       { path: "*", element: <NotFound404 /> },
     ],
