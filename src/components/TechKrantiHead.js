@@ -1,6 +1,6 @@
 import React from 'react'
 
-import tklogo from '../img/logos/logo10.jpg'
+import tklogo from '../img/logos/logo10.jpeg'
 
 export default function
     () {
