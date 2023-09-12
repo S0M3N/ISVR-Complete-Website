@@ -14,12 +14,11 @@ export default function Footer() {
             </a>
             <div>Contact: +91 8882054894</div><br />
             <div>
-              <b>Reg. Office: </b>Asaf Nagar Road, Delhi Highway, Roorkee, Uttarakhand 247667
+              <b>Head Office: </b>Asaf Nagar Road, Delhi Highway, Roorkee, Uttarakhand 247667
             </div>
             <br />
             <div>
-              <b>Dehradun Office: </b>23, Alka Puri, Near IMA Blood Bank Dehradun,
-              Uttarakhand-248001
+              <b>Ghaziabad Office: </b>Office No. 12A01/A Tower S3 Cloud 9 Sector -1,  Ghaziabad Uttar Pradesh - 201010
             </div>
             <div>
               <b>Lab: </b>ISVR Lab, RCE,5-KM Ganga Canal Road, Roorkee,
