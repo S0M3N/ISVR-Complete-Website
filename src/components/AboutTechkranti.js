@@ -7,8 +7,8 @@ export default function AboutTechkranti() {
     return (
         <>
             <div className='container mx-auto flex flex-col text-justify items-center justify-center'>
-                <h1 className='text-3xl font-semibold underline my-2'>About <span className='text-green-500 underline'>Tech</span> Kranti!</h1>
-                <p>Embark on a transformative journey into the realm of emerging technologies with Tech Kranti. As pioneers in the tech industry, we bring you a rich array of services and courses designed to inspire, educate, and empower. Our mission is to fuel the tech revolution by empowering individuals and businesses with the expertise to thrive in this digital era. Whether you are an aspiring entrepreneur, a tech enthusiast, or an organization seeking innovative solutions, Tech Kranti has something extraordinary to offer.</p>
+                <h1 className='text-3xl font-semibold underline my-2'>About <span className='text-green-500 underline'>Automaton</span>X !</h1>
+                <p>Embark on a transformative journey into the realm of emerging technologies with AutomatonX. As pioneers in the tech industry, we bring you a rich array of services and courses designed to inspire, educate, and empower. Our mission is to fuel the tech revolution by empowering individuals and businesses with the expertise to thrive in this digital era. Whether you are an aspiring entrepreneur, a tech enthusiast, or an organization seeking innovative solutions, AutomatonX has something extraordinary to offer.</p>
             </div>
             <h1 className='text-center mb-2 mt-5 text-3xl font-semibold underline'>Why choose <span className='text-green-500 underline'>TechKranti</span>?</h1>
             <div className='container mx-auto mb-5 flex lg:flex-row lg:space-x-5 flex-col-reverse'>
