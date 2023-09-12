@@ -7,7 +7,7 @@ const Navbar = () => {
         { name: 'About', path: '/About' },
         { name: 'Service', path: '/Services' },
         { name: 'Gallery', path: '/Gallery' },
-        { name: 'TechKranti', path: '/TechKranti' },
+        { name: 'AutomatonX', path: '/AutomatonX' },
     ];
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
