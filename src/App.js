@@ -22,6 +22,7 @@ import Rover from "./pages/Rover";
 import Satellite from "./pages/Satellite";
 import SpaceMed from "./pages/SpaceMed";
 import ComingSoon from "./pages/ComingSoon";
+import ContactForm from "./pages/ContactForm";
 
 const Layout = () => {
   return (
@@ -42,6 +43,7 @@ const router = createBrowserRouter([
       { path: "/gallery", element: <Gallery /> },
       { path: "/services", element: <Services /> },
       { path: "/AutomatonX", element: <TechKranti /> },
+      { path: "/ContactUs", element: <ContactForm /> },
       { path: "/service/:id", element: <Service /> },
       { path: "/cert/:id", element: <Cert /> },
       { path: "/tnc", element: <TnC /> },
