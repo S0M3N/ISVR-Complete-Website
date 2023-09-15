@@ -16,12 +16,13 @@ import TechKranti from "./pages/TechKranti";
 import TnC from "./pages/TnC";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Disclaimer from "./pages/Disclaimer";
-import Rocket from "./pages/Rocket";
-import Drone from "./pages/Drone";
-import Rover from "./pages/Rover";
-import Satellite from "./pages/Satellite";
+// import Rocket from "./pages/Rocket";
+// import Drone from "./pages/Drone";
+// import Rover from "./pages/Rover";
+// import Satellite from "./pages/Satellite";
 import SpaceMed from "./pages/SpaceMed";
 import ComingSoon from "./pages/ComingSoon";
+import ContactForm from "./pages/ContactForm";
 
 const Layout = () => {
   return (
@@ -41,7 +42,8 @@ const router = createBrowserRouter([
       { path: "/about", element: <About /> },
       { path: "/gallery", element: <Gallery /> },
       { path: "/services", element: <Services /> },
-      { path: "/TechKranti", element: <TechKranti /> },
+      { path: "/AutomatonX", element: <TechKranti /> },
+      { path: "/ContactUs", element: <ContactForm /> },
       { path: "/service/:id", element: <Service /> },
       { path: "/cert/:id", element: <Cert /> },
       { path: "/tnc", element: <TnC /> },

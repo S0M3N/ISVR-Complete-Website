@@ -12,14 +12,16 @@ export default function Footer() {
                 Indoplanet<span className="text-green-400">X</span>
               </span>
             </a>
-            <div>Contact: +91 8882054894</div><br />
+            <div>Contact: +91 8882054894</div>
+            <br />
             <div>
-              <b>Reg. Office: </b>Asaf Nagar Road, Delhi Highway, Roorkee, Uttarakhand 247667
+              <b>Head Office: </b>Asaf Nagar Road, Delhi Highway, Roorkee,
+              Uttarakhand 247667
             </div>
             <br />
             <div>
-              <b>Dehradun Office: </b>23, Alka Puri, Near IMA Blood Bank Dehradun,
-              Uttarakhand-248001
+              <b>Ghaziabad Office: </b>Office No. 12A01/A Tower S3 Cloud 9
+              Sector -1, Ghaziabad Uttar Pradesh - 201010
             </div>
             <div>
               <b>Lab: </b>ISVR Lab, RCE,5-KM Ganga Canal Road, Roorkee,
@@ -60,7 +62,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     href="https://www.linkedin.com/company/indian-space-vault-and-research/?original_referer=https%3A%2F%2Fisvr.org.in%2F"
                     className="hover:underline ">
-                    Facebook
+                    Linkedin
                   </a>
                 </li>
                 <li className="mb-4">
@@ -78,7 +80,7 @@ export default function Footer() {
                     rel="noopener noreferrer"
                     href="https://www.facebook.com/isvr01/"
                     className="hover:underline">
-                    LinkedIn
+                    Facebook
                   </a>
                 </li>
               </ul>
