@@ -22,7 +22,7 @@ export const certs = [
   {
     id: "003_manish_spcmed_aug",
     name: "Master Manish Dixit",
-    field: "Space Medicine",
+    field: "Space Medicine Intern",
     grade: "A",
     from: "May 23, 2023",
     to: "Jul 5, 2023",
