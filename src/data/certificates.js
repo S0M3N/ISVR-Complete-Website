@@ -20,7 +20,7 @@ export const certs = [
     attribute2: "his",
   },
   {
-    id: "003_manish_webdev_aug",
+    id: "003_manish_spcmed_aug",
     name: "Master Manish Dixit",
     field: "Space Medicine",
     grade: "A",
