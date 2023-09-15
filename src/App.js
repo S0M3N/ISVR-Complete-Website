@@ -19,7 +19,7 @@ import Disclaimer from "./pages/Disclaimer";
 // import Rocket from "./pages/Rocket";
 // import Drone from "./pages/Drone";
 // import Rover from "./pages/Rover";
-// import Satellite from "./pages/Satellite";
+import Satellite from "./pages/Satellite";
 import SpaceMed from "./pages/SpaceMed";
 import ComingSoon from "./pages/ComingSoon";
 import ContactForm from "./pages/ContactForm";
@@ -52,7 +52,7 @@ const router = createBrowserRouter([
       { path: "/division/rocket", element: <ComingSoon /> },
       { path: "/division/drone", element: <ComingSoon /> },
       { path: "/division/rover", element: <ComingSoon /> },
-      { path: "/division/satellite", element: <ComingSoon /> },
+      { path: "/division/satellite", element: <Satellite /> },
       { path: "/division/space_medicine", element: <SpaceMed /> },
       { path: "/division/ai_and_robotics", element: <ComingSoon /> },
       { path: "*", element: <NotFound404 /> },

@@ -98,7 +98,15 @@ export default function SpaceMed() {
           <h2 className='text-xl font-bold'>Earn an Industry Grade Certificate</h2>
           <p className='lg:w-[70%] my-4'>Get trained by us and earn a certificate to enhance your CV, Resume, and improve your presence.</p>
         </div>
-        <div className='r bg-gray-700 mt-[-3vh] shadow-lg mb-[-3vh] w-[30%] rounded-xl p-2 lg:block hidden'>hi</div>
+        <div className='r bg-gray-700 mt-[-3vh] shadow-lg mb-[-3vh] w-[30%] rounded-xl p-2 lg:block hidden'>
+          <p className='text-2xl ml-2'>★ Certificate ★</p>
+          <div className='mr-16 p-2 rounded-xl bg-gray-800 h-[30px] font-bold'>━━━━━</div>
+          <div className='mr-2 mt-2 p-2 rounded-xl bg-gray-800 h-[90px] font-extrabold'>
+          <p className='text-gray-600'>━━━━━</p>
+          <p>━━━━━━━━  ━━━━</p>
+          <p>━━━ ━━━━━━━</p>
+          </div>
+        </div>
         </div>
       </section>
     </>
