@@ -6,7 +6,7 @@ export default function Satellite() {
     document.title = "Satellite Communications | ISVRx";
   }, []);
   return (
-    <>
+    <div className='container mx-auto'>
       <section className="container lg:mx-auto mx-4 my-4 flex flex-row gap-2">
         <a href="/">Home</a>
         <p>●</p>
@@ -105,6 +105,6 @@ export default function Satellite() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   )
 }
