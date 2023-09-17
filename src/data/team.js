@@ -8,6 +8,7 @@ const imageFiles = [
   { name: "team7", extension: "jpeg" },
   { name: "team8", extension: "jpg" },
   { name: "team9", extension: "jpg" },
+  { name: "team10", extension: "jpg" },
 ];
 
 const importImage = (filename) => {
@@ -49,17 +50,24 @@ export const advisory = [
   },
   {
     id: 5,
+    name: "Deepak Kaushik",
+    field: "Chief Advisory Board Member || Ex Air Force Trainer",
+    linkedin: "",
+    image: importedImages[8],
+  },
+  {
+    id: 6,
+    name: "Prof. Rajesh Chandra",
+    field: "Hon. Advisory Board Member   ||   Ret. Prof. IIT Roorkee",
+    linkedin: "",
+    image: importedImages[9],
+  },
+  {
+    id: 7,
     name: "Dr. Paul Zilberman",
     field: "Advisory Board Member",
     linkedin: "https://www.linkedin.com/in/paul-zilberman-a47b3b25/",
     image: importedImages[4],
-  },
-  {
-    id: 5,
-    name: "Deepak Kaushik",
-    field: "Advisory Board Member || Future Warrior Defense Academy",
-    linkedin: "",
-    image: importedImages[8],
   },
 ];
 
