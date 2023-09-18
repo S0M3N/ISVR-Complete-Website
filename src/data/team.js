@@ -51,7 +51,7 @@ export const advisory = [
   {
     id: 5,
     name: "Deepak Kaushik",
-    field: "Chief Advisory Board Member || Ex Air Force Trainer",
+    field: "Chief Advisory Board Member || Ex AirForce Trainer",
     linkedin: "",
     image: importedImages[8],
   },
@@ -82,14 +82,14 @@ export const team = [
   {
     id: 2,
     name: "Samil Mahapatra",
-    field: "Chief Operative Officer",
+    field: "Chief Operating Officer",
     linkedin: "https://www.linkedin.com/in/samil-mahapatra/",
     image: importedImages[7],
   },
   {
     id: 3,
     name: "Somen Samanta",
-    field: "Developer",
+    field: "Chief Information Officer",
     linkedin: "https://www.linkedin.com/in/somensamantacse/",
     image: importedImages[6],
   },
