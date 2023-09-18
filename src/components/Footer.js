@@ -15,8 +15,8 @@ export default function Footer() {
             <div>Contact: +91 8882054894</div>
             <br />
             <div>
-              <b>Head Office: </b>Asaf Nagar Road, Delhi Highway, Roorkee,
-              Uttarakhand 247667
+              <b>Head Office: </b>Asaf nagar road, khasra no-166, Delhi Highway,
+              Roorkee Uttarakhand -247667
             </div>
             <br />
             <div>
