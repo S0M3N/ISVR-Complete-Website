@@ -81,13 +81,6 @@ export const team = [
   },
   {
     id: 2,
-    name: "Samil Mahapatra",
-    field: "Chief Operating Officer",
-    linkedin: "https://www.linkedin.com/in/samil-mahapatra/",
-    image: importedImages[7],
-  },
-  {
-    id: 3,
     name: "Somen Samanta",
     field: "Chief Information Officer",
     linkedin: "https://www.linkedin.com/in/somensamantacse/",
