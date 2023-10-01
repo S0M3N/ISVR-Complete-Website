@@ -9,6 +9,7 @@ const imageFiles = [
   { name: "team8", extension: "jpg" },
   { name: "team9", extension: "jpg" },
   { name: "team10", extension: "jpg" },
+  { name: "team_d", extension: "jpg" },
 ];
 
 const importImage = (filename) => {
@@ -85,5 +86,12 @@ export const team = [
     field: "Chief Information Officer",
     linkedin: "https://www.linkedin.com/in/somensamantacse/",
     image: importedImages[6],
+  },
+  {
+    id: 3,
+    name: "Vikas Pundir",
+    field: "Drone Pilot",
+    linkedin: "https://www.linkedin.com/in/#/",
+    image: importedImages[10],
   },
 ];
