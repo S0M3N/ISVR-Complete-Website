@@ -15,11 +15,6 @@ export default function Footer() {
             <div>Contact: +91 8882054894</div>
             <br />
             <div>
-              <b>Head Office: </b>Asaf nagar road, khasra no-166, Delhi Highway,
-              Roorkee Uttarakhand -247667
-            </div>
-            <br />
-            <div>
               <b>Ghaziabad Office: </b>Office No. 12A01/A Tower S3 Cloud 9
               Sector -1, Ghaziabad Uttar Pradesh - 201010
             </div>
