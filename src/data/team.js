@@ -12,6 +12,7 @@ const imageFiles = [
   { name: "team_d", extension: "jpg" },
   { name: "vidhya_sagar", extension: "jpg" },
   { name: "lovey_tyagi", extension: "jpg" },
+  { name: "ashish", extension: "jpeg" },
 ];
 
 const importImage = (filename) => {
@@ -64,6 +65,13 @@ export const advisory = [
     field: "Hon. Advisory Board Member   ||   Ret. Prof. IIT Roorkee",
     linkedin: "",
     image: importedImages[9],
+  },
+  {
+    id: 9,
+    name: "Ashish Tyagi",
+    field: "Advisory Board Member",
+    linkedin: "#",
+    image: importedImages[13],
   },
   {
     id: 7,
